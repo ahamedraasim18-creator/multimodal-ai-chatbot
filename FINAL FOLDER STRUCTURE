@@ -1,0 +1,29 @@
+multimodal-ai-chatbot/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   ├── medquad/
+│   │   └── medquad_sample.json
+│   └── arxiv_cs/
+│       └── arxiv_sample.json
+│
+├── models/
+│   ├── sentiment.py
+│   ├── language_detect.py
+│   ├── medical_qa.py
+│   ├── research_qa.py
+│   └── multimodal.py
+│
+├── ui/
+│   ├── chat_ui.py
+│   ├── medical_ui.py
+│   ├── research_ui.py
+│   └── image_ui.py
+│
+└── utils/
+    ├── embeddings.py
+    ├── retriever.py
+    └── summarizer.py
